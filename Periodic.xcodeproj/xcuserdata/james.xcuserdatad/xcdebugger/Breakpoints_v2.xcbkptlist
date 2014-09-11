@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeriodicFramework/NoesisLayerAnimation.swift"
+            timestampString = "432072443.707827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "animation(_:duration:delay:animations:completion:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeriodicFramework.NoesisLayerAnimation.animation (PeriodicFramework.NoesisLayerAnimation.Type)(ObjectiveC.CALayer, duration : Swift.Double, delay : Swift.Double, animations : Swift.Optional&lt;() -&gt; ()&gt;, completion : Swift.Optional&lt;(finished : Swift.Bool) -&gt; ()&gt;) -&gt; PeriodicFramework.NoesisLayerAnimation"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/NoesisLayerAnimation.swift"
+                  timestampString = "432072506.385353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeriodicFramework.NoesisLayerAnimation.(animation (PeriodicFramework.NoesisLayerAnimation.Type) -&gt; (ObjectiveC.CALayer, duration : Swift.Double, delay : Swift.Double, animations : Swift.Optional&lt;() -&gt; ()&gt;, completion : Swift.Optional&lt;(finished : Swift.Bool) -&gt; ()&gt;) -&gt; PeriodicFramework.NoesisLayerAnimation).(closure #1) with unmangled suffix &quot;_promote0&quot;"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/NoesisLayerAnimation.swift"
+                  timestampString = "432072506.385698"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reabstraction thunk helper from @callee_owned () -&gt; (@unowned ()) to @callee_unowned @objc_block () -&gt; (@unowned ())"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/NoesisLayerAnimation.swift"
+                  timestampString = "432072506.386026"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeriodicFramework/NoesisLayerAnimation.swift"
+            timestampString = "432073711.044684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "animation(_:duration:delay:animations:completion:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeriodicFramework/NoesisLayerAnimation.swift"
+            timestampString = "432074486.266008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "animation(_:duration:delay:animations:completion:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeriodicFramework/NoesisLayerAnimation.swift"
+            timestampString = "432074501.735517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "animation(_:duration:delay:animations:completion:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeriodicFramework.NoesisLayerAnimation.(animation (PeriodicFramework.NoesisLayerAnimation.Type) -&gt; (ObjectiveC.CALayer, duration : Swift.Double, delay : Swift.Double, animations : Swift.Optional&lt;() -&gt; ()&gt;, completion : Swift.Optional&lt;(finished : Swift.Bool) -&gt; ()&gt;) -&gt; PeriodicFramework.NoesisLayerAnimation).(closure #1) with unmangled suffix &quot;_promote0&quot;"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/NoesisLayerAnimation.swift"
+                  timestampString = "432074634.59726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2280">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeriodicFramework.NoesisLayerAnimation.(animation (PeriodicFramework.NoesisLayerAnimation.Type) -&gt; (ObjectiveC.CALayer, duration : Swift.Double, delay : Swift.Double, animations : Swift.Optional&lt;() -&gt; ()&gt;, completion : Swift.Optional&lt;(finished : Swift.Bool) -&gt; ()&gt;) -&gt; PeriodicFramework.NoesisLayerAnimation).(closure #1) with unmangled suffix &quot;_promote0&quot;"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/NoesisLayerAnimation.swift"
+                  timestampString = "432074634.597563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "4167">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeriodicFramework/CharacterLabel.swift"
+            timestampString = "432094106.620579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "calculateTextLayers()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeriodicFramework.CharacterLabel.calculateTextLayers (PeriodicFramework.CharacterLabel)() -&gt; ()"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/CharacterLabel.swift"
+                  timestampString = "432085910.999704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "3913">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeriodicFramework.CharacterLabel.calculateTextLayers (PeriodicFramework.CharacterLabel)() -&gt; ()"
+                  moduleName = "PeriodicFramework"
+                  urlString = "file:///Users/james/Desktop/Periodic/PeriodicFramework/CharacterLabel.swift"
+                  timestampString = "432085911.000034"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "3937">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Periodic/ViewController.swift"
+            timestampString = "432092417.576732"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "moveCell(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeriodicFramework/CharacterLabel.swift"
+            timestampString = "432086147.508066"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "CharacterLabel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

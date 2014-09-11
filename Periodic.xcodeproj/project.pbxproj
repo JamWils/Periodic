@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7E7A1D19C0C82300082F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A1C19C0C82300082F1C /* AppDelegate.swift */; };
+		1A7E7A2419C0C82300082F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E7A2319C0C82300082F1C /* Images.xcassets */; };
+		1A7E7A2719C0C82300082F1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E7A2519C0C82300082F1C /* LaunchScreen.xib */; };
+		1A7E7A3319C0C82300082F1C /* PeriodicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A3219C0C82300082F1C /* PeriodicTests.swift */; };
+		1A7E7A4619C0C85A00082F1C /* PeriodicFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7E7A4519C0C85A00082F1C /* PeriodicFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7E7A5219C0C85A00082F1C /* PeriodicFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A5119C0C85A00082F1C /* PeriodicFrameworkTests.swift */; };
+		1A7E7A5519C0C85A00082F1C /* PeriodicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E7A4119C0C85A00082F1C /* PeriodicFramework.framework */; };
+		1A7E7A5619C0C85A00082F1C /* PeriodicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E7A4119C0C85A00082F1C /* PeriodicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A7E7A7E19C0C9A000082F1C /* CATextLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7419C0C9A000082F1C /* CATextLayerExtensions.swift */; };
+		1A7E7A7F19C0C9A000082F1C /* CharacterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7519C0C9A000082F1C /* CharacterLabel.swift */; };
+		1A7E7A8019C0C9A000082F1C /* DragBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7619C0C9A000082F1C /* DragBehavior.swift */; };
+		1A7E7A8119C0C9A000082F1C /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7719C0C9A000082F1C /* Element.swift */; };
+		1A7E7A8319C0C9A000082F1C /* FadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7919C0C9A000082F1C /* FadingLabel.swift */; };
+		1A7E7A8419C0C9A000082F1C /* JSONElementParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7A19C0C9A000082F1C /* JSONElementParser.swift */; };
+		1A7E7A8519C0C9A000082F1C /* NoesisLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7B19C0C9A000082F1C /* NoesisLayerAnimation.swift */; };
+		1A7E7A8619C0C9A000082F1C /* RectangleAttachmentBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A7C19C0C9A000082F1C /* RectangleAttachmentBehavior.swift */; };
+		1A7E7A8919C0C9CD00082F1C /* elements.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E7A8819C0C9CD00082F1C /* elements.json */; };
+		1A7E7A8B19C0CA3800082F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E7A8A19C0CA3800082F1C /* Main.storyboard */; };
+		1A7E7A9019C0CA4A00082F1C /* BlankCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A8C19C0CA4A00082F1C /* BlankCollectionReusableView.swift */; };
+		1A7E7A9119C0CA4A00082F1C /* PeriodicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A8D19C0CA4A00082F1C /* PeriodicCollectionViewCell.swift */; };
+		1A7E7A9219C0CA4A00082F1C /* PeriodicCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A8E19C0CA4A00082F1C /* PeriodicCollectionViewFlowLayout.swift */; };
+		1A7E7A9319C0CA4A00082F1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A8F19C0CA4A00082F1C /* ViewController.swift */; };
+		1A7E7A9519C0E4AA00082F1C /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E7A9419C0E4AA00082F1C /* Reveal.framework */; };
+		1A7E7A9719C13C7000082F1C /* ArrayCollectionViewDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A9619C13C7000082F1C /* ArrayCollectionViewDataSourceTests.swift */; };
+		1A7E7A9919C13C8E00082F1C /* ArrayCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E7A9819C13C8E00082F1C /* ArrayCollectionViewDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7E7A2D19C0C82300082F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7E7A0F19C0C82300082F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7E7A1619C0C82300082F1C;
+			remoteInfo = Periodic;
+		};
+		1A7E7A4C19C0C85A00082F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7E7A0F19C0C82300082F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7E7A1619C0C82300082F1C;
+			remoteInfo = Periodic;
+		};
+		1A7E7A5319C0C85A00082F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7E7A0F19C0C82300082F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7E7A4019C0C85A00082F1C;
+			remoteInfo = PeriodicFramework;
+		};
+		1A7E7A5719C0C85A00082F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7E7A0F19C0C82300082F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7E7A4019C0C85A00082F1C;
+			remoteInfo = PeriodicFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A7E7A5C19C0C85A00082F1C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A7E7A5619C0C85A00082F1C /* PeriodicFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A7E7A1719C0C82300082F1C /* Periodic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periodic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7E7A1B19C0C82300082F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7E7A1C19C0C82300082F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A7E7A2319C0C82300082F1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A7E7A2619C0C82300082F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1A7E7A2C19C0C82300082F1C /* PeriodicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7E7A3119C0C82300082F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7E7A3219C0C82300082F1C /* PeriodicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTests.swift; sourceTree = "<group>"; };
+		1A7E7A4119C0C85A00082F1C /* PeriodicFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PeriodicFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7E7A4419C0C85A00082F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7E7A4519C0C85A00082F1C /* PeriodicFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeriodicFramework.h; sourceTree = "<group>"; };
+		1A7E7A4B19C0C85A00082F1C /* PeriodicFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7E7A5019C0C85A00082F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7E7A5119C0C85A00082F1C /* PeriodicFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicFrameworkTests.swift; sourceTree = "<group>"; };
+		1A7E7A7419C0C9A000082F1C /* CATextLayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATextLayerExtensions.swift; sourceTree = "<group>"; };
+		1A7E7A7519C0C9A000082F1C /* CharacterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterLabel.swift; sourceTree = "<group>"; };
+		1A7E7A7619C0C9A000082F1C /* DragBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragBehavior.swift; sourceTree = "<group>"; };
+		1A7E7A7719C0C9A000082F1C /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		1A7E7A7919C0C9A000082F1C /* FadingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingLabel.swift; sourceTree = "<group>"; };
+		1A7E7A7A19C0C9A000082F1C /* JSONElementParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONElementParser.swift; sourceTree = "<group>"; };
+		1A7E7A7B19C0C9A000082F1C /* NoesisLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoesisLayerAnimation.swift; sourceTree = "<group>"; };
+		1A7E7A7C19C0C9A000082F1C /* RectangleAttachmentBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleAttachmentBehavior.swift; sourceTree = "<group>"; };
+		1A7E7A8819C0C9CD00082F1C /* elements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = elements.json; sourceTree = "<group>"; };
+		1A7E7A8A19C0CA3800082F1C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A7E7A8C19C0CA4A00082F1C /* BlankCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankCollectionReusableView.swift; sourceTree = "<group>"; };
+		1A7E7A8D19C0CA4A00082F1C /* PeriodicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodicCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A7E7A8E19C0CA4A00082F1C /* PeriodicCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodicCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		1A7E7A8F19C0CA4A00082F1C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A7E7A9419C0E4AA00082F1C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		1A7E7A9619C13C7000082F1C /* ArrayCollectionViewDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCollectionViewDataSourceTests.swift; sourceTree = "<group>"; };
+		1A7E7A9819C13C8E00082F1C /* ArrayCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCollectionViewDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7E7A1419C0C82300082F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A5519C0C85A00082F1C /* PeriodicFramework.framework in Frameworks */,
+				1A7E7A9519C0E4AA00082F1C /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A2919C0C82300082F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A3D19C0C85A00082F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A4819C0C85A00082F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7E7A0E19C0C82300082F1C = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A1919C0C82300082F1C /* Periodic */,
+				1A7E7A2F19C0C82300082F1C /* PeriodicTests */,
+				1A7E7A4219C0C85A00082F1C /* PeriodicFramework */,
+				1A7E7A4E19C0C85A00082F1C /* PeriodicFrameworkTests */,
+				1A7E7A1819C0C82300082F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7E7A1819C0C82300082F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A1719C0C82300082F1C /* Periodic.app */,
+				1A7E7A2C19C0C82300082F1C /* PeriodicTests.xctest */,
+				1A7E7A4119C0C85A00082F1C /* PeriodicFramework.framework */,
+				1A7E7A4B19C0C85A00082F1C /* PeriodicFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7E7A1919C0C82300082F1C /* Periodic */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A9419C0E4AA00082F1C /* Reveal.framework */,
+				1A7E7A1C19C0C82300082F1C /* AppDelegate.swift */,
+				1A7E7A8A19C0CA3800082F1C /* Main.storyboard */,
+				1A7E7A8C19C0CA4A00082F1C /* BlankCollectionReusableView.swift */,
+				1A7E7A8D19C0CA4A00082F1C /* PeriodicCollectionViewCell.swift */,
+				1A7E7A8E19C0CA4A00082F1C /* PeriodicCollectionViewFlowLayout.swift */,
+				1A7E7A8F19C0CA4A00082F1C /* ViewController.swift */,
+				1A7E7A2319C0C82300082F1C /* Images.xcassets */,
+				1A7E7A2519C0C82300082F1C /* LaunchScreen.xib */,
+				1A7E7A1A19C0C82300082F1C /* Supporting Files */,
+			);
+			path = Periodic;
+			sourceTree = "<group>";
+		};
+		1A7E7A1A19C0C82300082F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A1B19C0C82300082F1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7E7A2F19C0C82300082F1C /* PeriodicTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A3219C0C82300082F1C /* PeriodicTests.swift */,
+				1A7E7A3019C0C82300082F1C /* Supporting Files */,
+			);
+			path = PeriodicTests;
+			sourceTree = "<group>";
+		};
+		1A7E7A3019C0C82300082F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A3119C0C82300082F1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7E7A4219C0C85A00082F1C /* PeriodicFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A9D19C13CD700082F1C /* Dynamics */,
+				1A7E7A9C19C13CBC00082F1C /* Model */,
+				1A7E7A9B19C13C9C00082F1C /* UI */,
+				1A7E7A9A19C13C9500082F1C /* Extensions */,
+				1A7E7A7619C0C9A000082F1C /* DragBehavior.swift */,
+				1A7E7A7A19C0C9A000082F1C /* JSONElementParser.swift */,
+				1A7E7A7B19C0C9A000082F1C /* NoesisLayerAnimation.swift */,
+				1A7E7A4519C0C85A00082F1C /* PeriodicFramework.h */,
+				1A7E7A4319C0C85A00082F1C /* Supporting Files */,
+				1A7E7A9819C13C8E00082F1C /* ArrayCollectionViewDataSource.swift */,
+			);
+			path = PeriodicFramework;
+			sourceTree = "<group>";
+		};
+		1A7E7A4319C0C85A00082F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A8819C0C9CD00082F1C /* elements.json */,
+				1A7E7A4419C0C85A00082F1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7E7A4E19C0C85A00082F1C /* PeriodicFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A5119C0C85A00082F1C /* PeriodicFrameworkTests.swift */,
+				1A7E7A4F19C0C85A00082F1C /* Supporting Files */,
+				1A7E7A9619C13C7000082F1C /* ArrayCollectionViewDataSourceTests.swift */,
+			);
+			path = PeriodicFrameworkTests;
+			sourceTree = "<group>";
+		};
+		1A7E7A4F19C0C85A00082F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A5019C0C85A00082F1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7E7A9A19C13C9500082F1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A7419C0C9A000082F1C /* CATextLayerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1A7E7A9B19C13C9C00082F1C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A7919C0C9A000082F1C /* FadingLabel.swift */,
+				1A7E7A7519C0C9A000082F1C /* CharacterLabel.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1A7E7A9C19C13CBC00082F1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A7719C0C9A000082F1C /* Element.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1A7E7A9D19C13CD700082F1C /* Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E7A7C19C0C9A000082F1C /* RectangleAttachmentBehavior.swift */,
+			);
+			name = Dynamics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A7E7A3E19C0C85A00082F1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A4619C0C85A00082F1C /* PeriodicFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A7E7A1619C0C82300082F1C /* Periodic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7E7A3619C0C82300082F1C /* Build configuration list for PBXNativeTarget "Periodic" */;
+			buildPhases = (
+				1A7E7A1319C0C82300082F1C /* Sources */,
+				1A7E7A1419C0C82300082F1C /* Frameworks */,
+				1A7E7A1519C0C82300082F1C /* Resources */,
+				1A7E7A5C19C0C85A00082F1C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7E7A5419C0C85A00082F1C /* PBXTargetDependency */,
+				1A7E7A5819C0C85A00082F1C /* PBXTargetDependency */,
+			);
+			name = Periodic;
+			productName = Periodic;
+			productReference = 1A7E7A1719C0C82300082F1C /* Periodic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A7E7A2B19C0C82300082F1C /* PeriodicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7E7A3919C0C82300082F1C /* Build configuration list for PBXNativeTarget "PeriodicTests" */;
+			buildPhases = (
+				1A7E7A2819C0C82300082F1C /* Sources */,
+				1A7E7A2919C0C82300082F1C /* Frameworks */,
+				1A7E7A2A19C0C82300082F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7E7A2E19C0C82300082F1C /* PBXTargetDependency */,
+			);
+			name = PeriodicTests;
+			productName = PeriodicTests;
+			productReference = 1A7E7A2C19C0C82300082F1C /* PeriodicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A7E7A4019C0C85A00082F1C /* PeriodicFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7E7A5919C0C85A00082F1C /* Build configuration list for PBXNativeTarget "PeriodicFramework" */;
+			buildPhases = (
+				1A7E7A3C19C0C85A00082F1C /* Sources */,
+				1A7E7A3D19C0C85A00082F1C /* Frameworks */,
+				1A7E7A3E19C0C85A00082F1C /* Headers */,
+				1A7E7A3F19C0C85A00082F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicFramework;
+			productName = PeriodicFramework;
+			productReference = 1A7E7A4119C0C85A00082F1C /* PeriodicFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A7E7A4A19C0C85A00082F1C /* PeriodicFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7E7A5D19C0C85A00082F1C /* Build configuration list for PBXNativeTarget "PeriodicFrameworkTests" */;
+			buildPhases = (
+				1A7E7A4719C0C85A00082F1C /* Sources */,
+				1A7E7A4819C0C85A00082F1C /* Frameworks */,
+				1A7E7A4919C0C85A00082F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7E7A4D19C0C85A00082F1C /* PBXTargetDependency */,
+			);
+			name = PeriodicFrameworkTests;
+			productName = PeriodicFrameworkTests;
+			productReference = 1A7E7A4B19C0C85A00082F1C /* PeriodicFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7E7A0F19C0C82300082F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Noesis Ingenuity LLC";
+				TargetAttributes = {
+					1A7E7A1619C0C82300082F1C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1A7E7A2B19C0C82300082F1C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1A7E7A1619C0C82300082F1C;
+					};
+					1A7E7A4019C0C85A00082F1C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1A7E7A4A19C0C85A00082F1C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1A7E7A1619C0C82300082F1C;
+					};
+				};
+			};
+			buildConfigurationList = 1A7E7A1219C0C82300082F1C /* Build configuration list for PBXProject "Periodic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7E7A0E19C0C82300082F1C;
+			productRefGroup = 1A7E7A1819C0C82300082F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7E7A1619C0C82300082F1C /* Periodic */,
+				1A7E7A2B19C0C82300082F1C /* PeriodicTests */,
+				1A7E7A4019C0C85A00082F1C /* PeriodicFramework */,
+				1A7E7A4A19C0C85A00082F1C /* PeriodicFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7E7A1519C0C82300082F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A8B19C0CA3800082F1C /* Main.storyboard in Resources */,
+				1A7E7A2719C0C82300082F1C /* LaunchScreen.xib in Resources */,
+				1A7E7A2419C0C82300082F1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A2A19C0C82300082F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A3F19C0C85A00082F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A8919C0C9CD00082F1C /* elements.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A4919C0C85A00082F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7E7A1319C0C82300082F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A9319C0CA4A00082F1C /* ViewController.swift in Sources */,
+				1A7E7A9019C0CA4A00082F1C /* BlankCollectionReusableView.swift in Sources */,
+				1A7E7A9219C0CA4A00082F1C /* PeriodicCollectionViewFlowLayout.swift in Sources */,
+				1A7E7A1D19C0C82300082F1C /* AppDelegate.swift in Sources */,
+				1A7E7A9119C0CA4A00082F1C /* PeriodicCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A2819C0C82300082F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A3319C0C82300082F1C /* PeriodicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A3C19C0C85A00082F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A8019C0C9A000082F1C /* DragBehavior.swift in Sources */,
+				1A7E7A8519C0C9A000082F1C /* NoesisLayerAnimation.swift in Sources */,
+				1A7E7A7F19C0C9A000082F1C /* CharacterLabel.swift in Sources */,
+				1A7E7A8119C0C9A000082F1C /* Element.swift in Sources */,
+				1A7E7A8419C0C9A000082F1C /* JSONElementParser.swift in Sources */,
+				1A7E7A8319C0C9A000082F1C /* FadingLabel.swift in Sources */,
+				1A7E7A8619C0C9A000082F1C /* RectangleAttachmentBehavior.swift in Sources */,
+				1A7E7A7E19C0C9A000082F1C /* CATextLayerExtensions.swift in Sources */,
+				1A7E7A9919C13C8E00082F1C /* ArrayCollectionViewDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7E7A4719C0C85A00082F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7E7A5219C0C85A00082F1C /* PeriodicFrameworkTests.swift in Sources */,
+				1A7E7A9719C13C7000082F1C /* ArrayCollectionViewDataSourceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7E7A2E19C0C82300082F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7E7A1619C0C82300082F1C /* Periodic */;
+			targetProxy = 1A7E7A2D19C0C82300082F1C /* PBXContainerItemProxy */;
+		};
+		1A7E7A4D19C0C85A00082F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7E7A1619C0C82300082F1C /* Periodic */;
+			targetProxy = 1A7E7A4C19C0C85A00082F1C /* PBXContainerItemProxy */;
+		};
+		1A7E7A5419C0C85A00082F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7E7A4019C0C85A00082F1C /* PeriodicFramework */;
+			targetProxy = 1A7E7A5319C0C85A00082F1C /* PBXContainerItemProxy */;
+		};
+		1A7E7A5819C0C85A00082F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7E7A4019C0C85A00082F1C /* PeriodicFramework */;
+			targetProxy = 1A7E7A5719C0C85A00082F1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A7E7A2519C0C82300082F1C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7E7A2619C0C82300082F1C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A7E7A3419C0C82300082F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A7E7A3519C0C82300082F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7E7A3719C0C82300082F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Periodic",
+				);
+				INFOPLIST_FILE = Periodic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A7E7A3819C0C82300082F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Periodic",
+				);
+				INFOPLIST_FILE = Periodic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A7E7A3A19C0C82300082F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriodicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periodic.app/Periodic";
+			};
+			name = Debug;
+		};
+		1A7E7A3B19C0C82300082F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriodicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periodic.app/Periodic";
+			};
+			name = Release;
+		};
+		1A7E7A5A19C0C85A00082F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriodicFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A7E7A5B19C0C85A00082F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PeriodicFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A7E7A5E19C0C85A00082F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriodicFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periodic.app/Periodic";
+			};
+			name = Debug;
+		};
+		1A7E7A5F19C0C85A00082F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriodicFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periodic.app/Periodic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7E7A1219C0C82300082F1C /* Build configuration list for PBXProject "Periodic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7E7A3419C0C82300082F1C /* Debug */,
+				1A7E7A3519C0C82300082F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7E7A3619C0C82300082F1C /* Build configuration list for PBXNativeTarget "Periodic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7E7A3719C0C82300082F1C /* Debug */,
+				1A7E7A3819C0C82300082F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A7E7A3919C0C82300082F1C /* Build configuration list for PBXNativeTarget "PeriodicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7E7A3A19C0C82300082F1C /* Debug */,
+				1A7E7A3B19C0C82300082F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A7E7A5919C0C85A00082F1C /* Build configuration list for PBXNativeTarget "PeriodicFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7E7A5A19C0C85A00082F1C /* Debug */,
+				1A7E7A5B19C0C85A00082F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A7E7A5D19C0C85A00082F1C /* Build configuration list for PBXNativeTarget "PeriodicFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7E7A5E19C0C85A00082F1C /* Debug */,
+				1A7E7A5F19C0C85A00082F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A7E7A0F19C0C82300082F1C /* Project object */;
+}
